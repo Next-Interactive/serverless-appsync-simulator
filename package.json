@@ -12,10 +12,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "tsc -p .",
     "watch": "yarn run build -w",
     "lint": "eslint . && tsc --noEmit",
-    "prepare": "rm -rf lib && yarn run build",
     "start-dev": "yarn run build -w --verbose"
   },
   "files": [
